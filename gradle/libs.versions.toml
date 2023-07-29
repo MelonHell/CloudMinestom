@@ -1,0 +1,8 @@
+[versions]
+cloud = "1.8.3"
+minestom = "438338381e"
+
+[libraries]
+cloud-core = { module = "cloud.commandframework:cloud-core", version.ref = "cloud" }
+cloud-annotations = { module = "cloud.commandframework:cloud-annotations", version.ref = "cloud" }
+minestom = { module = "dev.hollowcube:minestom-ce", version.ref = "minestom" }
