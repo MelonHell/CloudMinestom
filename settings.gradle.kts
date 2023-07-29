@@ -1,3 +1,3 @@
-rootProject.name = "CloudMinestom"
+rootProject.name = "cloud-minestom"
 
 include("demo")

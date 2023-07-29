@@ -1,7 +1,7 @@
-package ru.melonhell.cloudminestom.utils;
+package cloud.commandframework.minestom.utils;
 
 import cloud.commandframework.exceptions.*;
-import ru.melonhell.cloudminestom.MinestomCommandManager;
+import cloud.commandframework.minestom.MinestomCommandManager;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 import net.kyori.adventure.text.format.NamedTextColor;

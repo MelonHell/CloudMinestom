@@ -1,9 +1,9 @@
-package ru.melonhell.cloudminestom.utils;
+package cloud.commandframework.minestom.utils;
 
 import cloud.commandframework.arguments.CommandArgument;
 import cloud.commandframework.arguments.StaticArgument;
-import ru.melonhell.cloudminestom.MinestomCloudCommand;
-import ru.melonhell.cloudminestom.MinestomCommandManager;
+import cloud.commandframework.minestom.MinestomCloudCommand;
+import cloud.commandframework.minestom.MinestomCommandManager;
 import net.minestom.server.MinecraftServer;
 import net.minestom.server.command.builder.Command;
 import net.minestom.server.command.builder.CommandExecutor;

@@ -1,4 +1,4 @@
-package ru.melonhell.cloudminestom.caption;
+package cloud.commandframework.minestom.caption;
 
 import cloud.commandframework.captions.SimpleCaptionRegistry;
 

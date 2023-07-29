@@ -1,8 +1,8 @@
-package ru.melonhell.cloudminestom;
+package cloud.commandframework.minestom;
 
 import cloud.commandframework.Command;
 import cloud.commandframework.internal.CommandRegistrationHandler;
-import ru.melonhell.cloudminestom.utils.SetupUtils;
+import cloud.commandframework.minestom.utils.SetupUtils;
 import org.jetbrains.annotations.NotNull;
 
 public class MinestomCommandRegistrationHandler<C> implements CommandRegistrationHandler {

@@ -1,6 +1,6 @@
-package ru.melonhell.cloudminestom;
+package cloud.commandframework.minestom;
 
-import ru.melonhell.cloudminestom.utils.ExceptionUtils;
+import cloud.commandframework.minestom.utils.ExceptionUtils;
 import net.minestom.server.command.CommandSender;
 import net.minestom.server.command.builder.Command;
 import net.minestom.server.command.builder.CommandContext;

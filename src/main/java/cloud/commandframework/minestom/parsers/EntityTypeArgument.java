@@ -1,4 +1,4 @@
-package ru.melonhell.cloudminestom.parsers;
+package cloud.commandframework.minestom.parsers;
 
 import cloud.commandframework.arguments.CommandArgument;
 import cloud.commandframework.arguments.parser.ArgumentParseResult;
@@ -7,7 +7,7 @@ import cloud.commandframework.captions.CaptionVariable;
 import cloud.commandframework.context.CommandContext;
 import cloud.commandframework.exceptions.parsing.NoInputProvidedException;
 import cloud.commandframework.exceptions.parsing.ParserException;
-import ru.melonhell.cloudminestom.caption.MinestomCaptionKeys;
+import cloud.commandframework.minestom.caption.MinestomCaptionKeys;
 import net.minestom.server.entity.EntityType;
 import net.minestom.server.registry.ProtocolObject;
 import org.jetbrains.annotations.NotNull;

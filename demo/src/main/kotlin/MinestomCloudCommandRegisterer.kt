@@ -3,7 +3,7 @@ import cloud.commandframework.arguments.parser.ParserParameters
 import cloud.commandframework.arguments.parser.StandardParameters
 import cloud.commandframework.execution.AsynchronousCommandExecutionCoordinator
 import cloud.commandframework.meta.CommandMeta
-import ru.melonhell.cloudminestom.MinestomCommandManager
+import cloud.commandframework.minestom.MinestomCommandManager
 import net.minestom.server.command.CommandSender
 
 object MinestomCloudCommandRegisterer {

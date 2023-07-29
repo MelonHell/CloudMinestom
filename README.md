@@ -1,6 +1,6 @@
 ﻿# CloudMinestom
 
-A minestom implementation of the [Cloud Command Framework](https://github.com/Incendo/cloud).
+A minestom implementation of the [Cloud Command Framework](https://github.com/Incendo/cloud). ([Pull Request](https://github.com/Incendo/cloud/pull/462))
 
 ## Usage
 
@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("ru.melonhell.cloudminestom:CloudMinestom:1.0.0-SNAPSHOT")
+    implementation("ru.melonhell.cloudminestom:cloud-minestom:1.0.0-SNAPSHOT")
 }
 ```
 

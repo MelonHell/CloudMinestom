@@ -1,4 +1,4 @@
-package ru.melonhell.cloudminestom;
+package cloud.commandframework.minestom;
 
 import cloud.commandframework.CommandManager;
 import cloud.commandframework.CommandTree;
@@ -6,15 +6,15 @@ import cloud.commandframework.execution.AsynchronousCommandExecutionCoordinator;
 import cloud.commandframework.execution.CommandExecutionCoordinator;
 import cloud.commandframework.meta.CommandMeta;
 import cloud.commandframework.meta.SimpleCommandMeta;
+import cloud.commandframework.minestom.caption.MinestomCaptionRegistry;
+import cloud.commandframework.minestom.parsers.EntityTypeArgument;
+import cloud.commandframework.minestom.parsers.PlayerArgument;
 import io.leangen.geantyref.TypeToken;
 import net.minestom.server.command.CommandSender;
 import net.minestom.server.command.ConsoleSender;
 import net.minestom.server.entity.EntityType;
 import net.minestom.server.entity.Player;
 import org.jetbrains.annotations.NotNull;
-import ru.melonhell.cloudminestom.caption.MinestomCaptionRegistry;
-import ru.melonhell.cloudminestom.parsers.EntityTypeArgument;
-import ru.melonhell.cloudminestom.parsers.PlayerArgument;
 
 import java.util.function.Function;
 
@@ -76,7 +76,7 @@ public class MinestomCommandManager<C> extends CommandManager<C> {
         CommandSender minestomSender = backwardsMapCommandSender(sender);
         return minestomSender instanceof ConsoleSender
                 || minestomSender.hasPermission(permission)
-                || (minestomSender instanceof Player p && p.getPermissionLevel() >= 4);
+                || (minestomSender instanceof Player && ((Player) minestomSender).getPermissionLevel() >= 4);
     }
 
     @Override
