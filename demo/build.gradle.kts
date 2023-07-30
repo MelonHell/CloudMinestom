@@ -9,6 +9,6 @@ repositories {
 
 dependencies {
     implementation(rootProject)
-    implementation(libs.minestom)
+    implementation(libs.minestom.ce)
     implementation(libs.cloud.annotations)
 }
